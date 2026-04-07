@@ -1,0 +1,4 @@
+.env
+/config/google-oauth.php
+/vendor
+node_modules

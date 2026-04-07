@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Outer circle gradient background -->
+  <defs>
+    <linearGradient id="outerGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1bad7c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f472c;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="innerGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#26d07c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1ab563;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer ring curve top -->
+  <path d="M 20 100 A 80 80 0 0 1 60 30" fill="none" stroke="url(#outerGradient)" stroke-width="18" stroke-linecap="round"/>
+  
+  <!-- Outer ring curve right -->
+  <path d="M 170 60 A 80 80 0 0 1 170 140" fill="none" stroke="url(#outerGradient)" stroke-width="18" stroke-linecap="round"/>
+  
+  <!-- Outer ring curve bottom -->
+  <path d="M 140 170 A 80 80 0 0 1 60 170" fill="none" stroke="url(#outerGradient)" stroke-width="16" stroke-linecap="round"/>
+  
+  <!-- Outer ring curve left -->
+  <path d="M 30 140 A 80 80 0 0 1 20 100" fill="none" stroke="url(#outerGradient)" stroke-width="18" stroke-linecap="round"/>
+  
+  <!-- White background circle -->
+  <circle cx="100" cy="100" r="70" fill="white"/>
+  
+  <!-- U letter - left part -->
+  <path d="M 55 60 L 55 115 Q 55 130 70 130 L 85 130" fill="none" stroke="url(#innerGradient)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- U letter - right part -->
+  <path d="M 145 60 L 145 115 Q 145 130 130 130" fill="none" stroke="url(#innerGradient)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Connection at bottom -->
+  <path d="M 70 130 L 130 130" fill="none" stroke="url(#innerGradient)" stroke-width="12" stroke-linecap="round"/>
+  
+  <!-- L letter - vertical -->
+  <line x1="140" y1="60" x2="140" y2="130" stroke="#0f472c" stroke-width="12" stroke-linecap="round"/>
+  
+  <!-- L letter - horizontal -->
+  <line x1="140" y1="130" x2="165" y2="130" stroke="#0f472c" stroke-width="12" stroke-linecap="round"/>
+</svg>
